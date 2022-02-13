@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Sthirunavukkarasu7450/2009-902Webmaster#readme",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.1.3"
   }
 }

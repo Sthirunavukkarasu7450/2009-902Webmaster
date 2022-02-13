@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAP,2FAAO,CACP,OAAO,CAAP,oFAAO,CACP,OAAO,CAAP,wFAAO",
+    "sources": [
+        "../sass/animations.scss"
+    ],
+    "names": [],
+    "file": "animations.min.css"
+}
