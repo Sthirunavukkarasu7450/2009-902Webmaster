@@ -1,7 +1,0 @@
-.vertical-divider {
-    content: "|";
-    @media (max-width: 992px) {
-        content: none;
-        padding-left: 0;
-    }
-}
