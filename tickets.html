@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/main.min.css">
     <title>Tickets</title>
     <link rel="icon" href="musicFavicon.ico">
+    <script src="js.js"></script>
 </head>
 
 <body>
@@ -99,22 +100,31 @@
         </div>
     </nav>
 
+    <div class="p-5 bg-light">
+        <div class="container">
+            <h1 class="display-3">Buy Our Instrument Workshop Programs</h1>
+            <p class="lead">Improve your musicality and sound through working with the best of your instrument</p>
+            <hr class="my-2">
+            <p>Each worskshop costs $75 for all 3 sessions.</p>
+        </div>
+    </div>
+
     <form class="row g-3 p-5">
         <div class="col-md-6">
             <label for="inputFName" class="form-label">First Name:</label>
-            <input type="text" class="form-control" id="inputFName">
+            <input type="text" class="form-control" id="inputFName" required>
         </div>
         <div class="col-md-6">
             <label for="inputLName" class="form-label">Last Name</label>
-            <input type="text" class="form-control" id="inputLName">
+            <input type="text" class="form-control" id="inputLName" required>
         </div>
         <div class="col-12">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
+            <label for="inputEmail4" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="inputEmail4" required>
         </div>
         <div class="col-12">
             <label for="inputAddress" class="form-label">Address</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
         </div>
         <div class="col-12">
             <label for="inputAddress2" class="form-label">Address 2</label>
@@ -122,12 +132,12 @@
         </div>
         <div class="col-md-6">
             <label for="inputCity" class="form-label">City</label>
-            <input type="text" class="form-control" id="inputCity">
+            <input type="text" class="form-control" id="inputCity" required>
         </div>
         <div class="col-md-4">
             <label for="inputState" class="form-label">State</label>
-            <select id="inputState" class="form-select">
-            <option selected>Choose...</option>
+            <select id="inputState" class="form-select" required>
+            <option selected></option>
             <option value="AL">Alabama (AL)</option>
             <option value="AK">Alaska (AK)</option>
             <option value="AZ">Arizona (AZ)</option>
@@ -189,18 +199,179 @@
         </div>
         <div class="col-md-2">
             <label for="inputZip" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="inputZip">
+            <input type="text" class="form-control" id="inputZip" required>
         </div>
+        <div class="dropdown-divider"></div>
+        <br>
+        <h1 class="display-5 p-5 text-center">Select the Programs you'd like to buy</h1>
+        <table>
+            <tr>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <div class="dropdown-divider"></div>
         <div class="col-12">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-              Check me out
-            </label>
-            </div>
-        </div>
-        <div class="col-12">
-            <a class="btn btn-outline-primary" href="progBuy.html">Next Step: Select Your Programs</a>
+            <button class="btn btn-outline-primary" type="submit">Buy</button>
         </div>
     </form>
 
