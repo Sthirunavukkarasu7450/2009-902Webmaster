@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.min.css">
+    <script src="js.js"></script>
     <title>Tickets</title>
     <link rel="icon" href="musicFavicon.ico">
-    <script src="js.js"></script>
 </head>
 
 <body>
@@ -105,7 +105,7 @@
             <h1 class="display-3">Buy Our Instrument Workshop Programs</h1>
             <p class="lead">Improve your musicality and sound through working with the best of your instrument</p>
             <hr class="my-2">
-            <p>Each worskshop costs $75 for all 3 sessions.</p>
+            <p>Each worskshop costs $75.00 for all 3 sessions.</p>
         </div>
     </div>
 
@@ -204,37 +204,46 @@
         <div class="dropdown-divider"></div>
         <br>
         <h1 class="display-5 p-5 text-center">Select the Programs you'd like to buy</h1>
-        <table>
+        <div class="dropdown-divider"></div>
+        <table class="text-center">
             <tr>
                 <td>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="clarinet" id="flexCheckDefault" name="prog">
-                        <label class="form-check-label" for="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault" onclick="showChecked()">
                           Clarinet
                         </label>
                     </div>
                 </td>
                 <td>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="clarinet" id="flexCheckDefault" name="prog">
+                        <input class="form-check-input" type="checkbox" value="flute" id="flexCheckDefault" name="prog">
                         <label class="form-check-label" for="flexCheckDefault">
-                          Clarinet
+                          Flute/Piccolo
                         </label>
                     </div>
                 </td>
                 <td>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="clarinet" id="flexCheckDefault" name="prog">
+                        <input class="form-check-input" type="checkbox" value="saxophone" id="flexCheckDefault" name="prog">
                         <label class="form-check-label" for="flexCheckDefault">
-                          Clarinet
+                          Saxophone
                         </label>
                     </div>
                 </td>
                 <td>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="clarinet" id="flexCheckDefault" name="prog">
+                        <input class="form-check-input" type="checkbox" value="bassoon" id="flexCheckDefault" name="prog">
                         <label class="form-check-label" for="flexCheckDefault">
-                          Clarinet
+                          Bassoon
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="oboe" id="flexCheckDefault" name="prog">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Oboe
                         </label>
                     </div>
                 </td>
@@ -242,67 +251,41 @@
             <tr>
                 <td>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="clarinet" id="flexCheckDefault" name="prog">
+                        <input class="form-check-input" type="checkbox" value="trumpet" id="flexCheckDefault" name="prog">
                         <label class="form-check-label" for="flexCheckDefault">
-                          Clarinet
+                          Trumpet
                         </label>
                     </div>
                 </td>
                 <td>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="clarinet" id="flexCheckDefault" name="prog">
+                        <input class="form-check-input" type="checkbox" value="trombone" id="flexCheckDefault" name="prog">
                         <label class="form-check-label" for="flexCheckDefault">
-                          Clarinet
+                          Trombone
                         </label>
                     </div>
                 </td>
                 <td>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="clarinet" id="flexCheckDefault" name="prog">
+                        <input class="form-check-input" type="checkbox" value="baritone" id="flexCheckDefault" name="prog">
                         <label class="form-check-label" for="flexCheckDefault">
-                          Clarinet
+                          Baritone
                         </label>
                     </div>
                 </td>
                 <td>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="clarinet" id="flexCheckDefault" name="prog">
+                        <input class="form-check-input" type="checkbox" value="euphonium" id="flexCheckDefault" name="prog">
                         <label class="form-check-label" for="flexCheckDefault">
-                          Clarinet
-                        </label>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="clarinet" id="flexCheckDefault" name="prog">
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Clarinet
+                          Euphonium
                         </label>
                     </div>
                 </td>
                 <td>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="clarinet" id="flexCheckDefault" name="prog">
+                        <input class="form-check-input" type="checkbox" value="tuba" id="flexCheckDefault" name="prog">
                         <label class="form-check-label" for="flexCheckDefault">
-                          Clarinet
-                        </label>
-                    </div>
-                </td>
-                <td>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="clarinet" id="flexCheckDefault" name="prog">
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Clarinet
-                        </label>
-                    </div>
-                </td>
-                <td>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="clarinet" id="flexCheckDefault" name="prog">
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Clarinet
+                          Tuba
                         </label>
                     </div>
                 </td>
@@ -310,44 +293,227 @@
             <tr>
                 <td>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="clarinet" id="flexCheckDefault" name="prog">
+                        <input class="form-check-input" type="checkbox" value="drums" id="flexCheckDefault" name="prog">
                         <label class="form-check-label" for="flexCheckDefault">
-                          Clarinet
+                          Drums
                         </label>
                     </div>
                 </td>
                 <td>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="clarinet" id="flexCheckDefault" name="prog">
+                        <input class="form-check-input" type="checkbox" value="drumSet" id="flexCheckDefault" name="prog">
                         <label class="form-check-label" for="flexCheckDefault">
-                          Clarinet
+                          Drum Set
                         </label>
                     </div>
                 </td>
                 <td>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="clarinet" id="flexCheckDefault" name="prog">
+                        <input class="form-check-input" type="checkbox" value="Mallets" id="flexCheckDefault" name="prog">
                         <label class="form-check-label" for="flexCheckDefault">
-                          Clarinet
+                          Mallets
                         </label>
                     </div>
                 </td>
                 <td>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="clarinet" id="flexCheckDefault" name="prog">
+                        <input class="form-check-input" type="checkbox" value="symbals" id="flexCheckDefault" name="prog">
                         <label class="form-check-label" for="flexCheckDefault">
-                          Clarinet
+                          Symbals
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="otherPerc" id="flexCheckDefault" name="prog">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Other Percussion
+                        </label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="introMusicTheory" id="flexCheckDefault" name="prog">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Intro to Music Theory
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="composition" id="flexCheckDefault" name="prog">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Composition
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="history" id="flexCheckDefault" name="prog">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          History
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="composers" id="flexCheckDefault" name="prog">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Composers
                         </label>
                     </div>
                 </td>
             </tr>
         </table>
-        <h3 class="display-6">Total Cost:</h3>
-        <div id="priceTot"></div>
+        <h3 class="display-6" id="priceTot">Total Cost:</h3>
+        <script>
+            showChecked();
+
+            function showChecked() {
+                document.getElementById("priceTot").textContent = "Total Price: $" + document.querySelectorAll("input:checked").length * 75.00 + ".00";
+            }
+            document.querySelectorAll("input[name=prog]").forEach(i => {
+                i.onclick = function() {
+                    showChecked();
+                }
+            });
+        </script>
         <br>
         <div class="dropdown-divider"></div>
+        <p> <span class="display-6">Payment Information:</span> <br>
+            <div class="dropdown-divider"></div>Must pay through card.</p>
+        <div class="col-md-6">
+            <label for="billFName" class="form-label">Card Holder: <br><div class="dropdown-divider"></div>First Name:</label>
+            <input type="fName" class="form-control" id="billFName">
+        </div>
+        <div class="col-md-6">
+            <label for="billLName" class="form-label">  <br><div class="dropdown-divider"></div>Last Name:</label>
+            <input type="lName" class="form-control" id="billLName">
+        </div>
+        <div class="col-md-4">
+            <label for="cardNum" class="form-label">Card Number:</label>
+            <input type="card-number" class="form-control" id="cardNum">
+        </div>
+        <div class="col-md-4">
+            <label for="inputCardType" class="form-label">Card Type</label>
+            <select id="inputCardType" class="form-select" required>
+                  <option selected></option>
+                  <option>Visa</option>
+                  <option>MasterCard</option>
+                  <option>Discover</option>
+                  <option>American Express</option>
+                </select>
+        </div>
+        <div class="col-md-2">
+            <label for="expDate" class="form-label">Expiration Date:</label>
+            <input type="expiration" class="form-control" id="expDate" placeholder="MM/DD/YYYY">
+        </div>
+        <div class="col-md-2">
+            <label for="secCode" class="form-label">CV Code:</label>
+            <input type="securityCode" class="form-control" id="secCode">
+        </div>
+
         <div class="col-12">
-            <button class="btn btn-outline-primary" type="submit">Buy</button>
+            <label for="inputAddress" class="form-label">Billing Address: <br><div class="dropdown-divider"></div>Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+        </div>
+        <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" required>
+        </div>
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select" required>
+            <option selected></option>
+            <option value="AL">Alabama (AL)</option>
+            <option value="AK">Alaska (AK)</option>
+            <option value="AZ">Arizona (AZ)</option>
+            <option value="AR">Arkansas (AR)</option>
+            <option value="CA">California (CA)</option>
+            <option value="CO">Colorado (CO)</option>
+            <option value="CT">Connecticut (CT)</option>
+            <option value="DE">Delaware (DE)</option>
+            <option value="DC">District Of Columbia (DC)</option>
+            <option value="FL">Florida (FL)</option>
+            <option value="GA">Georgia (GA)</option>
+            <option value="HI">Hawaii (HI)</option>
+            <option value="ID">Idaho (ID)</option>
+            <option value="IL">Illinois (IL)</option>
+            <option value="IN">Indiana (IN)</option>
+            <option value="IA">Iowa (IA)</option>
+            <option value="KS">Kansas (KS)</option>
+            <option value="KY">Kentucky (KY)</option>
+            <option value="LA">Louisiana (LA)</option>
+            <option value="ME">Maine (ME)</option>
+            <option value="MD">Maryland (MD)</option>
+            <option value="MA">Massachusetts (MA)</option>
+            <option value="MI">Michigan (MI)</option>
+            <option value="MN">Minnesota (MN)</option>
+            <option value="MS">Mississippi (MS)</option>
+            <option value="MO">Missouri (MO)</option>
+            <option value="MT">Montana (MT)</option>
+            <option value="NE">Nebraska (NE)</option>
+            <option value="NV">Nevada (NV)</option>
+            <option value="NH">New Hampshire (NH)</option>
+            <option value="NJ">New Jersey (NJ)</option>
+            <option value="NM">New Mexico (NM)</option>
+            <option value="NY">New York (NY)</option>
+            <option value="NC">North Carolina (NC)</option>
+            <option value="ND">North Dakota (ND)</option>
+            <option value="OH">Ohio (OH)</option>
+            <option value="OK">Oklahoma (OK)</option>
+            <option value="OR">Oregon (OR)</option>
+            <option value="PA">Pennsylvania (PA)</option>
+            <option value="RI">Rhode Island (RI)</option>
+            <option value="SC">South Carolina (SC)</option>
+            <option value="SD">South Dakota (SD)</option>
+            <option value="TN">Tennessee (TN)</option>
+            <option value="TX">Texas (TX)</option>
+            <option value="UT">Utah (UT)</option>
+            <option value="VT">Vermont</option>
+            <option value="VA">Virginia</option>
+            <option value="WA">Washington</option>
+            <option value="WV">West Virginia</option>
+            <option value="WI">Wisconsin</option>
+            <option value="WY">Wyoming</option>
+            <option value="AS">American Samoa (AS)</option>
+            <option value="GU">Guam (GU)</option>
+            <option value="MP">Northern Mariana Islands (MP)</option>
+            <option value="PR">Puerto Rico (PR)</option>
+            <option value="UM">United States Minor Outlying Islands (UM)</option>
+            <option value="VI">Virgin Islands (VI)</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip" required>
+        </div>
+
+        <div class="col-12">
+            <button class="btn btn-outline-primary" data-toggle="modal" data-target="#submitModal" type="button">Order</button>
+        </div>
+        <div class="modal fade" id="submitModal" data-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Ticket Form Submission Confirmation</h5>
+                        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Once you click submit, you cannot go back to change any information. You will receive an email confirmatin containing your entries within the next 24 hours.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal" aria-label="Close">Go Back</button>
+                        <button type="submit" class="btn btn-outline-primary">Submit Form</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </form>
 
