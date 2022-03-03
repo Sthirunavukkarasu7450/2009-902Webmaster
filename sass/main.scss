@@ -1,5 +1,24 @@
 $primary: #d4c8a7;
-$navbar-dark-active-color: #c9ffee;
+.p-10 {
+    padding: 10%;
+}
+
+.p-7 {
+    padding: 7%;
+}
+
+.pl-7 {
+    padding-left: 7%;
+}
+
+.pr-7 {
+    padding-right: 7%;
+}
+
+.navbar-brand:hover {
+    color: ghostwhite;
+}
+
 @import "../node_modules/bootstrap/scss/functions.scss";
 @import "../node_modules/bootstrap/scss/variables.scss";
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
