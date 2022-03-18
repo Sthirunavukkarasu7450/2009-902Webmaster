@@ -119,6 +119,5 @@ h6 {
 
 .flip-card-back {
     background-color: rgb(255, 255, 255);
-    color: white;
     transform: rotateY(180deg);
 }
