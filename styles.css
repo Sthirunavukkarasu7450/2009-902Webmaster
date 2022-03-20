@@ -121,3 +121,7 @@ h6 {
     background-color: rgb(255, 255, 255);
     transform: rotateY(180deg);
 }
+
+.my-text-light {
+    color: #bebfa6;
+}
