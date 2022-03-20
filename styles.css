@@ -122,6 +122,8 @@ h6 {
     transform: rotateY(180deg);
 }
 
-.my-text-light {
-    color: #bebfa6;
+.new-active {
+    text-decoration: underline;
+    text-decoration-thickness: 0.5;
+    font-weight: bold;
 }
