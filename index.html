@@ -9,287 +9,19 @@
     <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <title>Home</title>
     <link rel="icon" href="music-note-list.svg">
-    <style>
-        @-webkit-keyframes fadeInRight {
-            from {
-                opacity: 0;
-                -webkit-transform: translate3d(100%, 0, 0);
-                transform: translate3d(100%, 0, 0);
-            }
-            to {
-                opacity: 1;
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-        }
-        
-        @keyframes fadeInRight {
-            from {
-                opacity: 0;
-                -webkit-transform: translate3d(100%, 0, 0);
-                transform: translate3d(100%, 0, 0);
-            }
-            to {
-                opacity: 1;
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-        }
-        
-        .fadeInRight {
-            -webkit-animation-name: fadeInRight;
-            animation-name: fadeInRight;
-        }
-        
-        .animated {
-            -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }
-        
-        @-webkit-keyframes fadeInLeft {
-            from {
-                opacity: 0;
-                -webkit-transform: translate3d(-100%, 0, 0);
-                transform: translate3d(-100%, 0, 0);
-            }
-            to {
-                opacity: 1;
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-        }
-        
-        @keyframes fadeInLeft {
-            from {
-                opacity: 0;
-                -webkit-transform: translate3d(-100%, 0, 0);
-                transform: translate3d(-100%, 0, 0);
-            }
-            to {
-                opacity: 1;
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-        }
-        
-        .fadeInLeft {
-            -webkit-animation-name: fadeInLeft;
-            animation-name: fadeInLeft;
-        }
-        
-        .animated {
-            -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }
-        
-        @-webkit-keyframes fadeInRightBig {
-            from {
-                opacity: 0;
-                -webkit-transform: translate3d(2000px, 0, 0);
-                transform: translate3d(2000px, 0, 0);
-            }
-            to {
-                opacity: 1;
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-        }
-        
-        @keyframes fadeInRightBig {
-            from {
-                opacity: 0;
-                -webkit-transform: translate3d(2000px, 0, 0);
-                transform: translate3d(2000px, 0, 0);
-            }
-            to {
-                opacity: 1;
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-        }
-        
-        .fadeInRightBig {
-            -webkit-animation-name: fadeInRightBig;
-            animation-name: fadeInRightBig;
-        }
-        
-        .animated {
-            -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }
-        
-        @-webkit-keyframes fadeInLeftBig {
-            from {
-                opacity: 0;
-                -webkit-transform: translate3d(-2000px, 0, 0);
-                transform: translate3d(-2000px, 0, 0);
-            }
-            to {
-                opacity: 1;
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-        }
-        
-        @keyframes fadeInLeftBig {
-            from {
-                opacity: 0;
-                -webkit-transform: translate3d(-2000px, 0, 0);
-                transform: translate3d(-2000px, 0, 0);
-            }
-            to {
-                opacity: 1;
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-        }
-        
-        .fadeInLeftBig {
-            -webkit-animation-name: fadeInLeftBig;
-            animation-name: fadeInLeftBig;
-        }
-        
-        .animated {
-            -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }
-        
-        @-webkit-keyframes fadeInUp {
-            from {
-                opacity: 0;
-                -webkit-transform: translate3d(0, 100%, 0);
-                transform: translate3d(0, 100%, 0);
-            }
-            to {
-                opacity: 1;
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-        }
-        
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                -webkit-transform: translate3d(0, 100%, 0);
-                transform: translate3d(0, 100%, 0);
-            }
-            to {
-                opacity: 1;
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-        }
-        
-        .fadeInUp {
-            -webkit-animation-name: fadeInUp;
-            animation-name: fadeInUp;
-        }
-        
-        .animated {
-            -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }
-        
-        @-webkit-keyframes fadeInUpBig {
-            from {
-                opacity: 0;
-                -webkit-transform: translate3d(0, 2000px, 0);
-                transform: translate3d(0, 2000px, 0);
-            }
-            to {
-                opacity: 1;
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-        }
-        
-        @keyframes fadeInUpBig {
-            from {
-                opacity: 0;
-                -webkit-transform: translate3d(0, 2000px, 0);
-                transform: translate3d(0, 2000px, 0);
-            }
-            to {
-                opacity: 1;
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-        }
-        
-        .fadeInUpBig {
-            -webkit-animation-name: fadeInUpBig;
-            animation-name: fadeInUpBig;
-        }
-        
-        .animated {
-            -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }
-        
-        @-webkit-keyframes slideInDown {
-            from {
-                -webkit-transform: translate3d(0, -100%, 0);
-                transform: translate3d(0, -100%, 0);
-                visibility: visible;
-            }
-            to {
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-        }
-        
-        @keyframes slideInDown {
-            from {
-                -webkit-transform: translate3d(0, -100%, 0);
-                transform: translate3d(0, -100%, 0);
-                visibility: visible;
-            }
-            to {
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-        }
-        
-        .slideInDown {
-            -webkit-animation-name: slideInDown;
-            animation-name: slideInDown;
-        }
-        
-        .animated {
-            -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }
-        
-        .hero {
-            text-align: center;
-            padding-top: 5%;
-        }
-    </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <div class="container-xxl">
             <a href="index.html" class="navbar-brand">
-                <span class="fw-bold text-primary">
+                <span class="fw-bold text-primary hover">
                     Society for Musical Progress
                 </span>
             </a>
@@ -300,13 +32,13 @@
             <div class="collapse navbar-collapse justify-content-end align-center text-primary" id="main-nav">
                 <ul class="navbar-nav">
                     <li class="nav-item ">
-                        <a class="nav-link text-primary new-active text-primary" href="index.html ">Home</a>
+                        <a class="nav-link hover text-primary new-active text-primary" href="index.html ">Home</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-primary text-primary" href="eventDates.html ">Event Dates</a>
+                        <a class="nav-link hover text-primary text-primary" href="eventDates.html ">Event Dates</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link text-primary dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link hover text-primary dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Instrument Programs
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -355,31 +87,44 @@
                         </div>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-primary text-primary" href="tickets.html ">Tickets</a>
+                        <a class="nav-link hover text-primary text-primary" href="tickets.html ">Tickets</a>
                     </li>
                     <li class="nav-item ">
-                        <a href="sponsors.html " class="nav-link text-primary">Our Sponsors</a>
+                        <a href="sponsors.html " class="nav-link hover text-primary">Our Sponsors</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-primary disabled" href="# "></a>
+                        <a class="nav-link hover text-primary disabled" href="# "></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-primary text-primary" href="contact.html ">Contact Us</a>
+                        <a class="nav-link hover text-primary text-primary" href="contact.html ">Contact Us</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-primary text-primary" href="chapter.html ">Our Chapter</a>
+                        <a class="nav-link hover text-primary text-primary" href="chapter.html ">Our Chapter</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-primary text-primary" href="sources.html ">Sources</a>
+                        <a class="nav-link hover text-primary text-primary" href="sources.html ">Sources</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <img src="" alt="">
+    <div class="homeBg text-center">
+        <br><br><br><br><br><br><br><br>
+        <a href="index.html" class="text-decoration-none">
+            <h1 class="display-1 text-white">Society for Musical Advancement</h1>
+        </a>
+        <br><br><br><br><br><br>
+        <a href="#start" class="text-decoration-none">
+            <p class="display-2 hover text-primary ">See who we are</p>
+            <div class="animate__animated animate__bounce animate__infinite">
+                <i class="display-3 bi-arrow-down text-primary hover"></i>
+            </div>
+        </a>
 
-    <div class="bg-dark text-light p-5">
+    </div>
+
+    <div class="bg-dark text-light p-5" id="start">
         <!--Mission Statement-->
         <div class="row p-5">
             <h1 class="display-5 lead">
@@ -391,7 +136,7 @@
                     gender, etc. Music should bring us all together and this is what we strive for.
                 </p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" data-aos="fade-down-left">
                 <img src="./img/home/mission.jpg" alt="">
             </div>
         </div>
@@ -400,12 +145,12 @@
             <h1 class="display-5 lead text-md-right">
                 The Drive Behind the Society:
             </h1>
-            <div class="col-md-3">
+            <div class="col-md-3" data-aos="fade-down-right">
                 <img src="./img/home/exec.jpg" alt="">
             </div>
             <div class="col-md-9 text-md-right">
                 <p class=" fs-4 lh-lg lead ">
-                    Besides having a goal, no organization can keep themselves going without reason and purpose. Many of our board members were once excellent musicians themselves.They saw music as a part of thathas made them better people today. Music does that for many
+                    Besides having a goal, no organization can keep themselves going without reason and purpose. Many of our board members were once excellent musicians themselves. They saw music as a part of that has made them better people today. Music does that for many
                     people. It helps them get through in their lives. It can be used to celebrate something as well as mourn for a loss. Within the past two years, the COVID-19 Pandemic has truly shocked the world altogether. Many people turned to music
                     as a means to keep going. We hoped to bring people together through music once more through the use of our instrument workshops and music programs where people can not only improve themselves as musicians, but also grow to be better
                     human beings.
@@ -427,141 +172,155 @@
                     <!-- Timeline -->
                     <div class="timeline timeline-one">
                         <!-- Timeline Item 1 -->
-                        <div class="timeline-item animated fadeInLeft">
-                            <span><img
-                        src="https://img.icons8.com/ios/50/000000/clarinet.png"/>
-                      </span>
-                            <h5 class="my-3">Clarinet</h5>
+                        <div class="timeline-item text-dark text-decoration-none" data-aos="fade-up-right">
+                            <a href="clarinet.html">
+                                <span><img
+                                    src="https://img.icons8.com/ios/50/000000/clarinet.png"/>
+                                  </span>
+                                <h5 class="my-3">Clarinet</h5>
+                            </a>
                             <p>
                                 June 6th - 8th
                             </p>
                             <b>3:00 P.M. - 5:00 P.M.</b>
                         </div>
                         <!-- Timeline Item 2 -->
-                        <div class="timeline-item animated fadeInRight">
-                            <span><img
-                          <img
-                          src="https://img.icons8.com/ios/50/000000/snare-drum.png"
-                      /></span>
-                            <h5 class="my-3">Drums</h5>
+                        <div class="timeline-item text-dark text-decoration-none" data-aos="fade-up-right">
+                            <a href="drum.html">
+                                <span><img src="https://img.icons8.com/ios/50/000000/snare-drum.png"/></span>
+                                <h5 class="my-3">Drums</h5>
+                            </a>
                             <p>
                                 July 4th - 6th
                             </p>
                             <b>10:00 A.M. - 12:00 A.M. </b>
                         </div>
                         <!-- Timeline Item 3 -->
-                        <div class="timeline-item animated fadeInLeftBig">
-                            <span><img
-                        <img src="https://img.icons8.com/ios/50/000000/herald-trumpet.png"/></span>
-                            <h5 class="my-3">Trumpet</h5>
+                        <div class="timeline-item text-dark text-decoration-none" data-aos="fade-up-left">
+                            <a href="trumpet.html">
+                                <span><img src="https://img.icons8.com/ios/50/000000/herald-trumpet.png"/></span>
+                                <h5 class="my-3">Trumpet</h5>
+                            </a>
                             <p>
                                 June 19th to 21st
                             </p>
                             <b>12:30 P.M.  - 2:30 P.M. </b>
                         </div>
-                        <div class="timeline-item animated fadeInUp">
-                            <span><img
-                        src="https://img.icons8.com/ios/50/000000/trombone.png"/></span>
-                            <h5 class="my-3">Trombone</h5>
+                        <div class="timeline-item text-dark text-decoration-none" data-aos="fade-up-right">
+                            <a href="bone.html">
+                                <span><img
+                                    src="https://img.icons8.com/ios/50/000000/trombone.png"/></span>
+                                <h5 class="my-3">Trombone</h5>
+                            </a>
                             <p>
                                 June 22nd - 24th
                             </p>
                             <b>9:00 A.M. - 11:00 A.M. </b>
                         </div>
-                        <div class="timeline-item animated fadeInLeftBig">
-                            <span><img
-                        <img src="https://img.icons8.com/ios/50/000000/flute.png"/></span>
-                            <h5 class="my-3">Flute & Piccolo</h5>
+                        <div class="timeline-item text-dark text-decoration-none" data-aos="fade-up-left">
+                            <a href="flutePic.html">
+                                <span><img src="https://img.icons8.com/ios/50/000000/flute.png"/></span>
+                                <h5 class="my-3">Flute & Piccolo</h5>
+                            </a>
                             <p>
                                 June 9th - June 11th
                             </p>
                             <b>11:30 A.M. to 1:30 P.M.</b>
                         </div>
-                        <div class="timeline-item">
-                            <span><img
-                        <img src="https://img.icons8.com/ios/50/000000/tuba.png"/></span>
-                            <h5 class="my-3">Tuba</h5>
+                        <div class="timeline-item text-dark text-decoration-none" data-aos="fade-up-right">
+                            <a href="tuba.html">
+                                <span><img src="https://img.icons8.com/ios/50/000000/tuba.png"/></span>
+                                <h5 class="my-3">Tuba</h5>
+                            </a>
                             <p>
                                 June 25th - June 27th
                             </p>
                             <b>9:50 A.M. - 11:50 A.M.</b>
                         </div>
-                        <div class="timeline-item">
-                            <span><img
-                        <img src="https://img.icons8.com/ios/50/000000/drum-set.png"/></span>
-                            <h5 class="my-3">Other Percussion</h5>
+                        <div class="timeline-item text-dark text-decoration-none" data-aos="fade-up-left">
+                            <a href="otherPerc.html">
+                                <span><img src="https://img.icons8.com/ios/50/000000/drum-set.png"/></span>
+                                <h5 class="my-3">Other Percussion</h5>
+                            </a>
                             <p>
                                 July 13th - July 15th
                             </p>
                             <b>10:15 A.M. - 12:15 P.M.</b>
                         </div>
-                        <div class="timeline-item">
-                            <span><img
-                        <img src="https://img.icons8.com/ios/50/000000/bassoon.png"/></span>
-                            <h5 class="my-3">Oboe</h5>
+                        <div class="timeline-item text-dark text-decoration-none" data-aos="fade-up-right">
+                            <a href="oboe.html">
+                                <span><img src="https://img.icons8.com/ios/50/000000/bassoon.png"/></span>
+                                <h5 class="my-3">Oboe</h5>
+                            </a>
                             <p>
                                 July 31st - August 2nd
                             </p>
                             <b>1:45 P.M. - 3:45 P.M.</b>
                         </div>
-                        <div class="timeline-item">
-                            <span><img
-                        <img src="https://img.icons8.com/ios/50/000000/alto-saxophone.png"/></span>
-                            <h5 class="my-3">Saxophone</h5>
+                        <div class="timeline-item text-dark text-decoration-none" data-aos="fade-up-left">
+                            <a href="sax.html">
+                                <span><img src="https://img.icons8.com/ios/50/000000/alto-saxophone.png"/></span>
+                                <h5 class="my-3">Saxophone</h5>
+                            </a>
                             <p>
                                 June 13th - June 15th
                             </p>
                             <b>12:00 P.M. - 2:00 P.M.</b>
                         </div>
-                        <div class="timeline-item">
-                            <span><img
-                        <img src="https://img.icons8.com/ios/50/000000/bugle.png"/></span>
+                        <div class="timeline-item text-dark text-decoration-none" data-aos="fade-up-right">
+                            <a href="fhorn.html"></a>
+                            <span><img src="https://img.icons8.com/ios/50/000000/bugle.png"/></span>
                             <h5 class="my-3">French Horn</h5>
                             <p>
                                 June 28th - June 30th
                             </p>
                             <b>9:40 A.M. - 11:40 A.M.</b>
                         </div>
-                        <div class="timeline-item">
-                            <span><img
-                        <img src="https://img.icons8.com/ios/50/000000/bassoon.png"/></span>
-                            <h5 class="my-3">Bassoon</h5>
+                        <div class="timeline-item text-dark text-decoration-none" data-aos="fade-up-left">
+                            <a href="bassoon.html">
+                                <span><img src="https://img.icons8.com/ios/50/000000/bassoon.png"/></span>
+                                <h5 class="my-3">Bassoon</h5>
+                            </a>
                             <p>
                                 June 16th - June 18th
                             </p>
                             <b>12:00 P.M. - 2:00 P.M.</b>
                         </div>
-                        <div class="timeline-item">
-                            <span><img
-                        <img src="https://img.icons8.com/ios/50/000000/music--v1.png"/></span>
-                            <h5 class="my-3">Intro to Music Theory</h5>
+                        <div class="timeline-item text-dark text-decoration-none" data-aos="fade-up-right">
+                            <a href="introMusicTheory.html">
+                                <span><img src="https://img.icons8.com/ios/50/000000/music--v1.png"/></span>
+                                <h5 class="my-3">Intro to Music Theory</h5>
+                            </a>
                             <p>
                                 July 19th - July 21st
                             </p>
                             <b>12:30 P.M. - 2:30 P.M.</b>
                         </div>
-                        <div class="timeline-item">
-                            <span><img
-                        <img src="https://img.icons8.com/ios/48/000000/history-book.png"/></span>
-                            <h5 class="my-3">History</h5>
+                        <div class="timeline-item text-dark text-decoration-none" data-aos="fade-up-left">
+                            <a href="history.html">
+                                <span><img src="https://img.icons8.com/ios/48/000000/history-book.png"/></span>
+                                <h5 class="my-3">History</h5>
+                            </a>
                             <p>
                                 July 28th - July 30th
                             </p>
                             <b>1:30 P.M. - 3:30 P.M.</b>
                         </div>
-                        <div class="timeline-item">
-                            <span><img
-                        <img src="https://img.icons8.com/ios/50/000000/history-book.png"/></span>
-                            <h5 class="my-3">Composition</h5>
+                        <div class="timeline-item text-dark text-decoration-none" data-aos="fade-up-right">
+                            <a href="composition.html">
+                                <span><img src="https://img.icons8.com/ios/50/000000/history-book.png"/></span>
+                                <h5 class="my-3">Composition</h5>
+                            </a>
                             <p>
                                 July 25th - July 27th
                             </p>
                             <b>2:00 P.M. - 4:00 P.M.</b>
                         </div>
-                        <div class="timeline-item">
-                            <span><img
-                        <img src="https://img.icons8.com/ios/48/000000/trombone.png"/></span>
-                            <h5 class="my-3">Eupohonium</h5>
+                        <div class="timeline-item text-dark text-decoration-none" data-aos="fade-up-left">
+                            <a href="euph.html">
+                                <span><img src="https://img.icons8.com/ios/48/000000/trombone.png"/></span>
+                                <h5 class="my-3">Eupohonium</h5>
+                            </a>
                             <p>
                                 July 1st - July 3rd
                             </p>
@@ -607,15 +366,15 @@
             <div class="col-md-3">
                 <span class="h5">See us on:</span>
                 <br>
-                <a class="text-decoration-none" href=""><img src=""><i class="bi bi-instagram"></i> Instagram</a>
+                <a class="text-decoration-none" href=""><i class="bi bi-instagram"></i> Instagram</a>
                 <br>
-                <a class="text-decoration-none" href=""><img src=""><i class="bi bi-youtube"></i> Youtube</a>
+                <a class="text-decoration-none" href=""><i class="bi bi-youtube"></i> Youtube</a>
                 <br>
-                <a class="text-decoration-none" href=""><img src=""><i class="bi bi-twitter"></i> Twitter</a>
+                <a class="text-decoration-none" href=""><i class="bi bi-twitter"></i> Twitter</a>
                 <br>
-                <a class="text-decoration-none" href=""><img src=""><i class="bi bi-facebook"></i> Facebook</a>
+                <a class="text-decoration-none" href=""><i class="bi bi-facebook"></i> Facebook</a>
                 <br>
-                <a class="text-decoration-none" href=""><img src=""><i class="bi bi-discord"></i> Discord</a>
+                <a class="text-decoration-none" href=""><i class="bi bi-discord"></i> Discord</a>
             </div>
         </div>
     </footer>
@@ -623,6 +382,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
