@@ -20,6 +20,10 @@ $card-border-width:none;
     color: white;
 }
 
+.slick-next {
+    right: 25px;
+}
+
 @import "../node_modules/bootstrap/scss/functions.scss";
 @import "../node_modules/bootstrap/scss/variables.scss";
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
