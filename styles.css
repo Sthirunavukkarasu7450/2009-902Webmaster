@@ -200,3 +200,7 @@ h6 {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(to bottom, rgba(161, 138, 74, 0.35), rgba(255, 255, 255, 0.35))
 }
+
+.quote-bg {
+    background: #f0deae;
+}
