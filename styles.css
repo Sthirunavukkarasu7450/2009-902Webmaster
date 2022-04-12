@@ -204,6 +204,6 @@ h6 {
     background: linear-gradient(to bottom, rgba(161, 138, 74, 0.35), rgba(255, 255, 255, 0.35))
 }
 
-.quote-bg {
-    background: #f0deae;
+.bg-primary-dark {
+    background: #6b6146;
 }
