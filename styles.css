@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&display=swap');
 html {
     height: 100%;
 }
@@ -29,52 +30,19 @@ p {
     font-family: 'Satisfy', cursive;
 }
 
-h1 {
-    font-family: 'Flamenco', cursive;
-}
-
-h2 {
-    font-family: 'Flamenco', cursive;
-}
-
-h3 {
-    font-family: 'Flamenco', cursive;
-}
-
-h4 {
-    font-family: 'Flamenco', cursive;
-}
-
-h5 {
-    font-family: 'Flamenco', cursive;
-}
-
-h6 {
-    font-family: 'Flamenco', cursive;
-}
-
-.display-1 {
-    font-family: 'Flamenco', cursive;
-}
-
-.display-2 {
-    font-family: 'Flamenco', cursive;
-}
-
-.display-3 {
-    font-family: 'Flamenco', cursive;
-}
-
-.display-4 {
-    font-family: 'Flamenco', cursive;
-}
-
-.display-5 {
-    font-family: 'Flamenco', cursive;
-}
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
 .display-6 {
-    font-family: 'Flamenco', cursive;
+    font-family: 'Alegreya Sans SC', 'Flamenco', cursive;
 }
 
 .new-active {
