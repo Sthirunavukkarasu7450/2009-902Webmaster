@@ -136,6 +136,12 @@ h6,
     }
 }
 
+@media screen and (max-width: 768px) {
+    .no-seconds {
+        display: none;
+    }
+}
+
 .gradient-gold-right {
     /* fallback for old browsers */
     background: #ffffff;
